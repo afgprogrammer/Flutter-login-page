@@ -4,7 +4,7 @@ This repository is a part of the 100-day design in Flutter.
 
 In this video, we use Flutter Container, MaterialButton, BoxDecoration, DecorationImage, MediaQuery, Row, Column, FadeAnimation, Navigator, Icon, Icons, Border, BorderSide, RoundedRectangleBorder, BorderRadius, Text, and so on in the one-speed video.
 
-<!-- [Youtube Video](https://www.youtube.com/watch?v=Hq7Wj6DshNs) -->
+[Youtube Video](https://youtu.be/bF7-67D3x3k)
 
 ## Last Design
 - [UI Design- Day 1](https://github.com/afgprogrammer/flutter-inspiration-app-ui)
