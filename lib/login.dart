@@ -9,18 +9,19 @@ class _LoginPageState extends State<LoginPage> {
   @override
   Widget build(BuildContext context) {
     final Size size = MediaQuery.of(context).size;
+    final double fontScale = MediaQuery.of(context).textScaleFactor;
 
     return Scaffold(
       body: SingleChildScrollView(
         child: Container(
           width: size.width,
           height: size.height,
-          padding: EdgeInsets.only(left: 20, right: 20, top: 150, bottom: 80),
+          padding: EdgeInsets.only(left: 20, right: 20, top: size.height * 0.14, bottom: size.height * 0.06),
           child: Column(
             crossAxisAlignment: CrossAxisAlignment.start,
             mainAxisAlignment: MainAxisAlignment.spaceBetween,
             children: [
-              Text("Hello, \nWelcome Back", style: Theme.of(context).textTheme.headline1,),
+              Text("Hello, \nWelcome Back", style: Theme.of(context).textTheme.headline1.copyWith(fontSize: size.width * 0.1,)),
               Column(
                 crossAxisAlignment: CrossAxisAlignment.end,
                 children: [
