@@ -44,7 +44,7 @@ class _LoginPageState extends State<LoginPage> {
               crossAxisAlignment: CrossAxisAlignment.start,
               mainAxisAlignment: MainAxisAlignment.spaceBetween,
               children: [
-                Text("Hello, \nWelcome Back", style: Theme.of(context).textTheme.headline1.copyWith(fontSize: size.width * 0.1,)),
+                Text("Hello, \nWelcome Back", style: Theme.of(context).textTheme.titleLarge?.copyWith(fontSize: size.width * 0.1,)),
                 Column(
                   crossAxisAlignment: CrossAxisAlignment.end,
                   children: [
@@ -97,13 +97,14 @@ class _LoginPageState extends State<LoginPage> {
                 ),
                 Column(
                   children: [
-                    RaisedButton(
+                    MaterialButton(
                       onPressed: () => {},
                       elevation: 0,
                       padding: EdgeInsets.all(18),
                       shape: RoundedRectangleBorder(
                         borderRadius: BorderRadius.circular(20)
                       ),
+                      color: Colors.blue,
                       child: Center(child: Text("Login", style: TextStyle(fontWeight: FontWeight.bold),)),
                     ),
                     SizedBox(height: 30,),

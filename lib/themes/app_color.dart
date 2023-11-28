@@ -8,5 +8,5 @@ class AppColor {
   static Color bodyColorDark = const Color(0xff0E0E0F);
 
   static Color buttonBackgroundColor = const Color(0xffF7F7F7);
-  static Color buttonBackgroundColorDark = const Color(0xff121212);
+  static Color buttonBackgroundColorDark = Color.fromARGB(255, 39, 36, 36);
 }
